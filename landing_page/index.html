@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .bg-img {
+            background-image: url(bg-masthead.jpg);
+            height: 100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bg-img2 {
+            background-image: url(bg-masthead.jpg);
+            height: 50vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card-box {
+            --bs-gutter-x: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- As a heading -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid ">
+                    <a href="#" class="navbar-brand fs-3 fw-medium ms-md-5">Boostrap</a>
+                    <button type="button" class="btn btn-primary btn-md-lg btn-sm  fs-6 fw-medium me-md-5"><a href="#signup"
+                            class="text-white text-decoration-none">Sign Up</a></button>
+        </div>
+    </nav>
+
+    <!-- background-image -->
+    <div class="container-fluid bg-img d-flex justify-content-center align-items-center">
+        <!-- content on bg-img -->
+        <div class="container w-50">
+            <p class="text-white h1 text-center mb-3">Generate more leads <br> with a professional <br> landing page!
+            </p>
+            <form action="#">
+                <div class="row">
+                    <div class="col-auto d-md-flex mx-auto w-100 ">
+                        <input type="text" class="form-control form-control-lg rounded  fs-6  ps-3 me-md-3"
+                            placeholder="Email Address" aria-label="email" aria-describedby="basic-addon1">
+                        <div class="col-auto mx-auto text-center mt-2 mt-md-0 ">
+                            <button type="button"
+                                class="btn btn-primary btn-md-lg btn-sm text-light  fs-6 fw-medium px-5 p-md-3 rounded">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- card -->
+    <div class="row card-box d-flex justify-content-center bg-body-tertiary p-5">
+        <div class="col-md-3">
+            <div class="card h-100 border-0 bg-body-tertiary">
+                <i class="fa-solid fa-display fa-5x text-center text-primary"></i>
+                <div class="card-body">
+                    <h2 class="card-title text-center">Fully Responsive</h2>
+                    <p class="card-text text-center">This theme will look great on any device, no matter the size!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100 border-0 bg-body-tertiary">
+                <i class="fa-brands fa-bootstrap fa-5x text-center text-primary"></i>
+                <div class="card-body">
+                    <h2 class="card-title text-center">Boostrap 5 Ready</h2>
+                    <p class="card-text text-center">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100 border-0 bg-body-tertiary">
+                <i class="fa-solid fa-code fa-5x text-center text-primary"></i>
+                <div class="card-body">
+                    <h2 class="card-title text-center">Easy to Use</h2>
+                    <p class="card-text text-center">Ready to use with your own content, or customize the source files!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- first card -->
+    <div class="row card-box">
+        <div class="col-md-6 d-grid align-content-center justify-content-center order-2 order-md-1 p-4 p-md-0">
+            <h1>Fully Responsive Design</h1>
+            <p class="fs-5">
+                When you use a theme created by Start Bootstrap, <br> you know that the theme will look great on any
+                <br> device, whether it's a phone, tablet, or desktop the <br> page will behave responsively!
+            </p>
+        </div>
+        <div class="col-md-6 border border-dark order-1 order-md-2">
+            <img src="bg-showcase-1.jpg" alt="" class="w-100">
+        </div>
+    </div>
+
+    <!-- second card -->
+    <div class="row card-box">
+        <div class="col-md-6 border border-dark order-1 order-md-1">
+            <img src="bg-showcase-2.jpg" alt="" class="w-100">
+        </div>
+        <div class="col-md-6 d-grid align-content-center justify-content-center order-2 order-md-2 p-4 p-md-0">
+            <h1>Updated For Bootstrap 5</h1>
+            <p class="fs-5">
+                Newly improved, and full of great utility classes, <br> Bootstrap 5 is leading the way in mobile
+                responsive <br> web development! All of the themes on Start <br> Bootstrap are now using Bootstrap 5!
+            </p>
+        </div>
+    </div>
+
+    <!-- third card -->
+    <div class="row card-box">
+        <div class="col-md-6 d-grid align-content-center justify-content-center order-2 order-md-1 p-4 p-md-0">
+            <h1>Easy to Use & Customize</h1>
+            <p class="fs-5">
+                Landing Page is just HTML and CSS with a splash of <br> SCSS for users who demand some deeper <br>
+                customization options. Out of the box, just add your <br> content and images, and your new landing page
+                will <br> be ready to go!
+            </p>
+        </div>
+        <div class="col-md-6 border border-dark order-1 order-md-2">
+            <img src="bg-showcase-3.jpg" alt="" class="w-100">
+        </div>
+    </div>
+
+    <!--photo card -->
+    <div class="row card-box d-flex justify-content-evenly bg-body-tertiary p-5">
+        <div class="col-md-4 ">
+            <div class="card h-100 border-0 bg-body-tertiary">
+                <img src="testimonials-2.jpg" class="rounded-circle w-50 mx-auto shadow-lg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Fred S.</h4>
+                    <p class="card-text text-center">"This is fantastic! Thanks so much guys!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <div class="card h-100 border-0 bg-body-tertiary">
+                <img src="my-pic.png" class="rounded-circle w-50 mx-auto shadow-lg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Sufyan R.</h4>
+                    <p class="card-text text-center">"Bootstrap is amazing. I've been using it <br> to create lots of
+                        super nice landing pages."</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 ">
+            <div class="card h-100 border-0 bg-body-tertiary">
+                <img src="testimonials-3.jpg" class="rounded-circle w-50 mx-auto shadow-lg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Sarah W.</h4>
+                    <p class="card-text text-center">"Thanks so much for making these free <br> resources available to
+                        us!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- signup form 2 -->
+    <div class="container-fluid bg-img2 d-flex justify-content-center align-items-center">
+        <!-- content on bg-img -->
+        <div class="container w-50">
+            <p class="text-white h1 text-center mb-3">Ready to get started? Sign up now!
+            </p>
+            <form action="#">
+                <div class="row">
+                    <div class="col-auto d-md-flex mx-auto w-100 ">
+                        <input type="text" class="form-control form-control-lg rounded fs-md-4 fs-6  ps-3 me-md-3"
+                            placeholder="Email Address" aria-label="email" aria-describedby="basic-addon1" id="signup">
+                        <div class="col-auto mx-auto text-center mt-2 mt-md-0 ">
+                            <button type="button"
+                                class="btn btn-primary btn-lg text-light  fs-6 fw-medium px-5 p-md-3 rounded">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-body-tertiary text-center text-dark">
+        <div class="container p-4 pb-0">
+            <section class="mb-4">
+
+                <!-- Facebook -->
+                <a class="btn btn-outline-primary btn-floating m-1" href="https://www.facebook.com/" target="_blank"
+                    role="button"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-info btn-floating m-1" href="https://twitter.com/" target="_blank"
+                    role="button"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://www.google.com/" target="_blank"
+                    role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-danger btn-floating m-1" href="https://www.instagram.com/" target="_blank"
+                    role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-primary btn-floating m-1" href="https://www.linkedin.com/home" target="_blank"
+                    role="button"><i class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-dark btn-floating m-1" href="https://github.com/" target="_blank"
+                    role="button"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © Your Website 2023. All Rights Reserved.
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
